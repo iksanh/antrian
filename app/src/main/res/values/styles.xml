@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="merah">#C62828</color>
+    <color name="merah_tua">#8E1B1B</color>
+    <color name="latar">#F7F3F3</color>
+
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/merah</item>
+        <item name="android:colorPrimaryDark">@color/merah_tua</item>
+        <item name="android:colorAccent">@color/merah</item>
+        <item name="android:windowBackground">@color/latar</item>
+        <item name="android:alertDialogTheme">@style/DialogTheme</item>
+    </style>
+
+    <style name="DialogTheme" parent="android:Theme.Material.Light.Dialog.Alert">
+        <item name="android:colorPrimary">@color/merah</item>
+        <item name="android:colorAccent">@color/merah</item>
+    </style>
+</resources>
